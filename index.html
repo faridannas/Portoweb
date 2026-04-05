@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Portfolio pribadi Farid Annas Al Faruq — Mahasiswa Politeknik IDN, IoT Enthusiast, Web Developer, Full Stack Developer." />
+  <meta name="keywords" content="Farid Annas Al Faruq, portfolio, IoT, web development, full stack, Politeknik IDN" />
+  <meta name="author" content="Farid Annas Al Faruq" />
+  <title>Farid Annas Al Faruq — Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+  <!-- ===========================
+       NAVBAR
+  =========================== -->
+  <nav id="navbar" role="navigation" aria-label="Main navigation">
+    <a href="#hero" class="nav-logo" id="nav-logo">
+      <span>FA</span>
+    </a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about" id="nav-about">Tentang Saya</a></li>
+      <li><a href="#skills" id="nav-skills">Skills</a></li>
+      <li><a href="#projects" id="nav-projects">Projects</a></li>
+      <li><a href="#contact" id="nav-contact">Kontak</a></li>
+    </ul>
+    <button id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile menu -->
+  <div id="mobile-menu" role="menu">
+    <a href="#about" id="mob-about">Tentang Saya</a>
+    <a href="#skills" id="mob-skills">Skills</a>
+    <a href="#projects" id="mob-projects">Projects</a>
+    <a href="#contact" id="mob-contact">Kontak</a>
+  </div>
+
+  <!-- ===========================
+       HERO — Aurora Split Layout
+  =========================== -->
+  <section id="hero">
+
+    <!-- Left: Text Content -->
+    <div class="hero-left">
+
+      <h1 class="hero-title">
+        <span class="highlight">Farid Annas</span><br />Al Faruq
+      </h1>
+
+      <p class="hero-role">IoT Developer &amp; Web Engineer</p>
+
+      <p class="hero-subtitle">
+        Mahasiswa <strong>Politeknik IDN</strong> — bersemangat dalam membangun
+        solusi berbasis teknologi, mulai dari <strong>Internet of Things</strong>,
+        sistem embedded, hingga aplikasi web full-stack.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn-primary" id="hero-cta-projects">
+          Lihat Project
+        </a>
+        <a href="#contact" class="btn-outline" id="hero-cta-contact">
+          📬 Hubungi Saya
+        </a>
+      </div>
+
+      <div class="scroll-indicator" aria-hidden="true">
+        <div class="mouse"></div>
+        <span>Scroll ke bawah</span>
+      </div>
+    </div>
+
+    <!-- Right: Photo -->
+    <div class="hero-right">
+      <img src="img/photo_nobg.png" alt="Foto Farid Annas Al Faruq" class="hero-right-photo" />
+    </div>
+
+  </section>
+
+  <!-- ===========================
+       ABOUT
+  =========================== -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+        <!-- Avatar / image -->
+        <div class="about-image-wrap fade-in">
+          <div class="profile-ring-wrap">
+            <div class="profile-ring">
+              <img src="img/Gambar WhatsApp 2025-02-20 pukul 08.19.00_4185c3e8.jpg" alt="Farid Annas Al Faruq"
+                class="profile-img" />
+            </div>
+          </div>
+          <div class="about-badge-float">🎓 Politeknik IDN</div>
+        </div>
+
+        <!-- Content -->
+        <div class="about-content fade-in">
+          <span class="section-tag">Tentang Saya</span>
+          <div class="section-divider"></div>
+          <h2 class="section-title">Passionate dalam Teknologi &amp; Inovasi</h2>
+          <p class="section-desc">
+            Halo! Saya <strong>Farid Annas Al Faruq</strong>, mahasiswa aktif di
+            <strong>Politeknik IDN</strong> yang memiliki minat besar di bidang teknologi,
+            khususnya <em>pengembangan web</em> dan Internetof Things (IoT)
+
+          </p>
+          <br />
+          <p class="section-desc">
+            Saya telah mengerjakan berbagai proyek mulai dari sistem monitoring sensor,
+            <strong>drone underwater</strong> untuk keperluan pemantauan bawah air,
+            hingga aplikasi web berbasis full-stack. Saya percaya teknologi dapat
+            memberikan dampak nyata bagi kehidupan sehari-hari.
+          </p>
+
+          <div class="about-stats">
+            <div class="stat-card">
+              <div class="stat-number">3+</div>
+              <div class="stat-label">Projects Selesai</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">7+</div>
+              <div class="stat-label">Tech Skills</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">IoT</div>
+              <div class="stat-label">Spesialisasi</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===========================
+       SKILLS
+  =========================== -->
+  <section id="skills">
+    <div class="container">
+      <div class="skills-header fade-in">
+        <span class="section-tag">Kemampuan</span>
+        <div class="section-divider" style="margin: 0.75rem auto 1rem;"></div>
+        <h2 class="section-title">Tech Stack &amp; Skills</h2>
+        <p class="section-desc">
+          Teknologi dan alat yang saya kuasai dalam membangun solusi digital dan perangkat keras.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        <!-- HTML -->
+        <div class="skill-card fade-in" id="skill-html">
+          <span class="skill-icon" aria-hidden="true">🌐</span>
+          <div class="skill-name">HTML</div>
+          <span class="skill-tag">Frontend</span>
+        </div>
+        <!-- CSS -->
+        <div class="skill-card fade-in" id="skill-css">
+          <span class="skill-icon" aria-hidden="true">🎨</span>
+          <div class="skill-name">CSS</div>
+          <span class="skill-tag">Styling</span>
+        </div>
+        <!-- JavaScript -->
+        <div class="skill-card fade-in" id="skill-js">
+          <span class="skill-icon" aria-hidden="true">⚡</span>
+          <div class="skill-name">JavaScript</div>
+          <span class="skill-tag">Frontend</span>
+        </div>
+        <!-- IoT -->
+        <div class="skill-card fade-in" id="skill-iot">
+          <span class="skill-icon" aria-hidden="true">📡</span>
+          <div class="skill-name">IoT</div>
+          <span class="skill-tag">Hardware</span>
+        </div>
+        <!-- Sensor Monitoring -->
+        <div class="skill-card fade-in" id="skill-sensor">
+          <span class="skill-icon" aria-hidden="true">📊</span>
+          <div class="skill-name">Sensor Monitoring</div>
+          <span class="skill-tag">Embedded</span>
+        </div>
+
+
+        <!-- Web Development -->
+        <div class="skill-card fade-in" id="skill-webdev">
+          <span class="skill-icon" aria-hidden="true">💻</span>
+          <div class="skill-name">Web Development</div>
+          <span class="skill-tag">Full Stack</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===========================
+       PROJECTS
+  =========================== -->
+  <section id="projects">
+    <div class="container">
+      <div class="projects-header fade-in">
+        <span class="section-tag">Portfolio</span>
+        <div class="section-divider" style="margin: 0.75rem auto 1rem;"></div>
+        <h2 class="section-title">Project Unggulan</h2>
+        <p class="section-desc">
+          Beberapa proyek yang telah saya kerjakan, mulai dari aplikasi web hingga sistem IoT.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project 1: Tahfidz App -->
+        <article class="project-card fade-in" id="proj-tahfidz">
+          <div class="project-thumbnail project-thumb-img">
+            <img src="img/tahfidz-preview.png" alt="Aplikasi Tahfidz Screenshot" class="project-thumb-real" />
+          </div>
+          <div class="project-body">
+            <div class="project-category">Aplikasi Mobile Web</div>
+            <h3 class="project-title">Aplikasi Tahfidz Sabaq Sabqi Manzil</h3>
+            <p class="project-desc">
+              Aplikasi berbasis web untuk membantu para penghafal Al-Qur'an dalam mencatat
+              dan memantau progres hafalan mereka. Menggunakan metode Sabaq, Sabqi, dan
+              Manzil untuk manajemen hafalan yang lebih terstruktur.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">JavaScript</span>
+              <span class="project-tag">Web App</span>
+            </div>
+            <a href="https://tahfidz-progress-hub.lovable.app" target="_blank" rel="noopener noreferrer" class="project-btn" id="proj-tahfidz-btn"
+              aria-label="Lihat project Aplikasi Tahfidz">
+              Lihat Project →
+            </a>
+          </div>
+        </article>
+
+        <!-- Project 2: Landing Page -->
+        <article class="project-card fade-in" id="proj-landing">
+          <div class="project-thumbnail project-thumb-img">
+            <img src="img/landing-preview.png" alt="Landing Page Tech Project Lab Screenshot"
+              class="project-thumb-real" />
+          </div>
+          <div class="project-body">
+            <div class="project-category">Web Development</div>
+            <h3 class="project-title">Landing Page Jasa Pembuatan Alat Teknologi</h3>
+            <p class="project-desc">
+              Landing page profesional untuk menampilkan layanan jasa pembuatan alat
+              teknologi dan IoT. Dirancang dengan tampilan modern, responsif, dan
+              dioptimalkan untuk konversi pelanggan.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">Responsive</span>
+              <span class="project-tag">UI/UX</span>
+            </div>
+            <a href="https://fdevs.my.id/" target="_blank" rel="noopener noreferrer" class="project-btn" id="proj-landing-btn"
+              aria-label="Lihat project Landing Page">
+              Lihat Project →
+            </a>
+          </div>
+        </article>
+
+        <!-- Project 3: Drone Underwater -->
+        <article class="project-card fade-in" id="proj-drone">
+          <div class="project-thumbnail project-thumb-img">
+            <img src="img/drone-preview.png" alt="HydroPulse Dashboard Screenshot" class="project-thumb-real" />
+          </div>
+          <div class="project-body">
+            <div class="project-category">IoT · Hardware</div>
+            <h3 class="project-title">Drone Underwater Monitoring System</h3>
+            <p class="project-desc">
+              Sistem drone bawah air yang dilengkapi dengan sensor untuk pemantauan
+              kondisi lingkungan bawah laut secara real-time. Data sensor ditransmisikan
+              ke dashboard monitoring berbasis web.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Arduino</span>
+              <span class="project-tag">IoT</span>
+              <span class="project-tag">Sensor</span>
+              <span class="project-tag">Monitoring</span>
+            </div>
+            <a href="https://dronewar.zakkal.my.id/monitoring" target="_blank" rel="noopener noreferrer" class="project-btn" id="proj-drone-btn"
+              aria-label="Lihat project Drone Underwater">
+              Lihat Project →
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===========================
+       CONTACT
+  =========================== -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-inner">
+        <span class="section-tag">Kontak</span>
+        <div class="section-divider"></div>
+        <h2 class="section-title">Mari Berkolaborasi! 🤝</h2>
+        <p class="section-desc">
+          Tertarik untuk bekerja sama atau sekadar ngobrol tentang teknologi?
+          Jangan ragu untuk menghubungi saya melalui platform di bawah ini.
+        </p>
+
+        <div class="contact-cards fade-in">
+          <!-- Email -->
+          <a href="mailto:faridr1306@gmail.com" class="contact-card" id="contact-email"
+            aria-label="Kirim email ke Farid">
+            <div class="contact-icon email" aria-hidden="true">📧</div>
+            <div>
+              <div class="contact-info-label">Email</div>
+              <div class="contact-info-value">faridr1306@gmail.com</div>
+            </div>
+            <span class="contact-arrow" aria-hidden="true">→</span>
+          </a>
+
+          <!-- WhatsApp -->
+          <a href="https://wa.me/62895320066297" target="_blank" rel="noopener noreferrer" class="contact-card"
+            id="contact-wa" aria-label="Chat via WhatsApp">
+            <div class="contact-icon whatsapp" aria-hidden="true">🟢</div>
+            <div>
+              <div class="contact-info-label">WhatsApp</div>
+              <div class="contact-info-value">0895320066297</div>
+            </div>
+            <span class="contact-arrow" aria-hidden="true">→</span>
+          </a>
+
+          <!-- GitHub -->
+          <a href="https://github.com/faridannas" target="_blank" rel="noopener noreferrer" class="contact-card"
+            id="contact-github" aria-label="Kunjungi GitHub Farid">
+            <div class="contact-icon github" aria-hidden="true">🐙</div>
+            <div>
+              <div class="contact-info-label">GitHub</div>
+              <div class="contact-info-value">github.com/faridannas</div>
+            </div>
+            <span class="contact-arrow" aria-hidden="true">→</span>
+          </a>
+        </div>
+
+        <a href="https://wa.me/62895320066297?text=Halo%20Farid!%20Saya%20tertarik%20untuk%20berkolaborasi%20dengan%20kamu."
+          target="_blank" rel="noopener noreferrer" class="btn-primary" id="cta-wa-collab" style="margin:0 auto;">
+          💬 Mulai Percakapan
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===========================
+       FOOTER
+  =========================== -->
+  <footer>
+    <p>
+      © 2026 <span>Farid Annas Al Faruq</span> · Dibuat dengan ❤️ menggunakan HTML, CSS &amp; JavaScript
+    </p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+
+</html>
