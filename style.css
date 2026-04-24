@@ -632,6 +632,8 @@ section {
   font-size: 2.5rem;
   margin-bottom: 0.875rem;
   display: block;
+  font-style: normal;
+  line-height: 1;
 }
 
 .skill-name {
@@ -871,6 +873,11 @@ section {
   justify-content: center;
   font-size: 1.4rem;
   flex-shrink: 0;
+}
+
+.contact-icon i {
+  font-style: normal;
+  line-height: 1;
 }
 
 .contact-icon.email    { background: var(--blue-mid); }
